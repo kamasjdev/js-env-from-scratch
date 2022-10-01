@@ -1,8 +1,11 @@
-import generateJoke from "./generate.joke";
+import generateJoke from "./generateJoke";
 import './styles/main.scss';
 import image from './assets/image.svg'
 
 const imgDiv = document.getElementById('img');
 imgDiv.src = image;
 
-console.log(generateJoke());
+const jokeBtn = document.getElementById('jokeBtn')
+jokeBtn.addEventListener('click', generateJoke)
+
+generateJoke();
