@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js' // name of entry as an output generated js
+        filename: '[name].[contenthash].js' // name of entry as an output generated js
     },
     module: {
         rules: [
