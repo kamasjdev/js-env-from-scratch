@@ -8,7 +8,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[contenthash].js' // name of entry as an output generated js
+        filename: '[name].[contenthash].js', // name of entry as an output generated js
+        clean: true
     },
     devServer: {
         static: {
