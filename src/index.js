@@ -1,4 +1,4 @@
-import generateJoke from "./generateJoke";
+import generateJoke from "./generateJoke.js";
 import './styles/main.scss';
 import image from './assets/image.svg'
 
