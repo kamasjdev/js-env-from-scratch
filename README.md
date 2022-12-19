@@ -9,3 +9,9 @@ Technologie:
 - Jasmine (Unit Tests)
 - HTML
 - SCSS
+
+Przykładowe screeny:
+
+![](screen1.png)
+![](screen2.png)
+![](screen3.png)
